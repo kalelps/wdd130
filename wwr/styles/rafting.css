@@ -253,6 +253,10 @@ footer nav.socialmedia a img {
   cursor: pointer;
 }
 
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+}
+
 .contact-info iframe {
   width: 100%;
   height: 200px;
