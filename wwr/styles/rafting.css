@@ -1,3 +1,5 @@
+/* Color Pallete */
+
 :root {
   --primary-color: #189bd8;
   --secondary-color: #5da9e9;
@@ -6,6 +8,8 @@
   --heading-font: "Roboto", sans-serif;
   --body-font: "Open Sans", sans-serif;
 }
+
+/* General Styles */
 
 * {
   margin: 0;
@@ -188,6 +192,12 @@ footer nav.socialmedia a img {
 
 /* Contact Page*/
 
+.contact-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -258,8 +268,6 @@ footer nav.socialmedia a img {
 }
 
 .contact-info iframe {
-  width: 100%;
-  height: 200px;
   margin-top: 1rem;
   border: none; /* No inline style */
 }
@@ -277,3 +285,37 @@ footer nav.socialmedia a img {
   padding: 23px;
 }
 
+.employee-section {
+  margin: 2rem;
+  text-align: center;
+}
+
+.employee-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.employee-row .profile {
+  flex: 1 1 30%;
+  max-width: 200px;
+}
+
+.employee-row .profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.employee-row .profile figcaption {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--accent1-color);
+}
+
+.employee-row td {
+  padding: 1rem;
+}
